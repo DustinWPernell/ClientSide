@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+   	<meta charset="utf-8">
+   	<title>
+   		Exercise 5
+   	</title>
+</head>
+<body style="width: 80%; margin: auto">
+	<h1>Contact Us</h1>
+	<form action="https://student2.cs.appstate.edu/crr/3440/homework/h3/contact/"
+ 		  method="post"> 
+		<fieldset>
+			<legend>Send Us Feedback</legend>
+			<label for="emailTo">To:<br></label>
+ 			<input type="text" 
+		   	       name="emailTo" id="emailTo" 
+		   	       value="Acme Corporation" readonly
+		   	       style="width: 160px">
+			<br><br>
+			<label for="emailFrom">Your Email Address:<br></label>
+ 			<input type="email" 
+		   	       name="emailFrom" id="emailFrom"
+		   	       style="width: 160px"
+		   	       required="required">
+			<br><br>
+			<label for="emailBody">Message:<br></label>
+ 			<textarea name="emailBody" id="emailBody"
+		   	          cols="20" rows="5" 
+		   	          placeholder="Type your message here..."
+		   	          required="required"></textarea>
+		</fieldset>
+		<fieldset>
+			<legend>Survey Questions</legend>
+			<label for="referrer">How did you hear about us?<br></label>
+ 			<select name="referrer" id="referrer"
+		   	       	style="width: 160px">
+		   		<option value="google">Google</option>
+		   	 	<option value="ad">Newspaper ad</option>
+		   	 	<option value="friend">Friend</option>
+		   	 	<option value="other">Other</option>
+		   	</select>
+			<br><br>
+			<label for="newsletter">Would you like to receive our newsletter?<br></label>
+ 			<input type="checkbox" 
+		   	       name="newsletter" id="newsletter" checked="checked">
+			<label for="newsletter">Yes please. Send me the newsletter.</label>
+		</fieldset>
+		<fieldset>
+			<legend>Rate Our Service</legend>
+ 			<input type="radio" name="rating" id="rating_1" value="1">
+ 			<label for="rating_1">Very Poor</label>
+ 			<br>
+ 			<input type="radio" name="rating" id="rating_2" value="2">
+ 			 <label for="rating_2">Poor</label>
+ 			<br>
+			<input type="radio" name="rating" id="rating_3" value="3">
+ 			<label for="rating_3">Average</label>
+ 			<br>
+ 			<input type="radio" name="rating" id="rating_4" value="4">
+ 			<label for="rating_4">Good</label>
+ 			<br>
+ 			<input type="radio" name="rating" id="rating_5" value="5">
+ 			<label for="rating_5">Very Good</label>
+		</fieldset>
+		<input type="submit" value="Send Message">
+	</form>
+</body>
+</html>
