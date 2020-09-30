@@ -1,0 +1,124 @@
+body {
+    margin: 0 auto;
+    align-content: center;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+#nav ul {
+    display: inline-block;
+    align-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.menu {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#menu li a {
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#menu li a:last-child {
+    margin: 0 auto;
+}
+
+li.nav {
+    text-align: center;
+    list-style: none;
+    word-spacing: 0;
+    padding: 0;
+    border-left: 2px solid black;
+    display: inline-block;
+    float: left;
+}
+
+li.nav:last-child {
+    border-right: 2px solid black;
+}
+
+a:hover {
+    background-color: #FF8BFF;
+}
+
+a:visited {
+    color: black;
+}
+
+div.container {
+    align-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 98%;
+    display: inline-block;
+}
+
+div {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    display: inline-block;
+}
+
+ul.classSched {
+    list-style-image: url('../images/bullet.png');
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+
+hr {
+    width: 75%;
+    height: 4px;
+    margin-bottom: 2em;
+    background-color: grey;
+    border: none;
+}
+
+table.data {
+    width: 100%;
+    min-width: 500px;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    border: 0;
+    border-collapse: collapse;
+}
+
+th {
+    border-top: 2px solid #284C55;
+    border-bottom: 2px solid #284C55;
+    color: chocolate;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 100;
+    background-color: white;
+    padding: 6px;
+}
+
+tr {
+    border: 0px;
+}
+
+td {
+    text-align: left;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: lightgray;
+}

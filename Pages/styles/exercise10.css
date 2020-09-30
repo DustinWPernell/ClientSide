@@ -1,0 +1,38 @@
+body {
+    background-color: palegoldenrod;
+    align-content: center;
+    margin-right: 14em;
+    margin-left: 14em;
+}
+p.first {
+    background-color: lightgray;
+}
+p.second {
+    background-color: lightgray;
+    box-shadow: .3em .3em grey;
+    margin-bottom: 2em;
+}
+p.third {
+    border: .3em solid black;
+    padding: 2em;
+    box-shadow: .3em .3em grey;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-bottom: 5em;
+}
+p.fourth {
+    border: .3em solid black;
+    border-radius: 5em;
+    box-shadow: .3em .3em grey;
+    padding: 1em;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-bottom: 5em;
+}
+p.fifth {
+    margin-left: 2em;
+    margin-right: 2em;
+    border: 15px solid;
+    padding: 2px;
+    border-image: url(../images/border.png) 16 round;
+}

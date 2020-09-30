@@ -1,0 +1,56 @@
+.wrapper {
+  	background-color: #000000;
+  	color: white;
+  	text-align: center;
+  	border: 10px solid black;
+  	margin-right: auto;
+  	margin-left: auto;
+  	display: grid;
+  	grid-template-areas: ". . . ." "row row row row"
+}
+
+div div {
+	border: 10px solid black;
+	height: 150px;
+}
+
+.red {
+	background-color: red;
+}
+
+.green {
+	background-color: green;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.purple {
+	background-color: purple;
+}
+
+.footer {
+	background-color: grey;
+	grid-area: row;
+  	height: 3em;
+}
+
+@media (max-width: 500px) {
+	.wrapper{
+		background-color: #000000;
+  		color: white;
+  		text-align: center;
+  		border: 10px solid black;
+  		margin-right: auto;
+  		margin-left: auto;
+  		overflow: auto;
+  		display: grid;
+  		grid-template-areas: "." "." "." "." "."
+  	}
+  	.footer {
+  		background-color: grey;
+		grid-area: 5 / 1 / 5 / 1;
+  		height: 3em;
+	}
+}
